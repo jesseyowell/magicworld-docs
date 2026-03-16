@@ -4,3 +4,4 @@
 - deleteoauthapp
 - getoauthclientsecret
 - getoauthaccesstoken
+- getredirecturis
