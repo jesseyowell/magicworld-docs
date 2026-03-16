@@ -2,3 +2,4 @@
 - addhaproxyservice
 - addmongodbservice
 - addmysqlservice
+- addpostgresqlservice
