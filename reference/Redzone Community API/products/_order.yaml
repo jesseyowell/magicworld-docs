@@ -17,3 +17,4 @@
 - delete-products-productuuid-locationconfigs
 - get-products-productuuid-cycletargets
 - put-products-productuuid-cycletargets
+- delete-products-productuuid-cycletargets
