@@ -14,3 +14,4 @@
 - addrdsexporter
 - changeazuredatabaseexporter
 - changeexternalexporter
+- changemongodbexporter
