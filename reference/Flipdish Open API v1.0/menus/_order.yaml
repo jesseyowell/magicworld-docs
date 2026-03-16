@@ -11,3 +11,4 @@
 - getallmenumetadatabymenuidandstoreid
 - menus_getmenubulkshowhide
 - getmenuitemmetadata
+- setmenuitemmetadata
