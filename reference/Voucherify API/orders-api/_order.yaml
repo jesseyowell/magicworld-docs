@@ -1,3 +1,4 @@
 - get-orders
 - post-orders
 - get-orders-orderid
+- put-orders-orderid
