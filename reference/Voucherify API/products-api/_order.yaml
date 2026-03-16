@@ -10,3 +10,4 @@
 - post-products-productid-skus
 - put-products-productid-skus-skuid
 - delete-products-productid-skus-skuid
+- post-products-importcsv
