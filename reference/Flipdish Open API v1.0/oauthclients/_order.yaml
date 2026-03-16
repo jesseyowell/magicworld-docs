@@ -3,3 +3,4 @@
 - updateoauthapp
 - deleteoauthapp
 - getoauthclientsecret
+- getoauthaccesstoken
