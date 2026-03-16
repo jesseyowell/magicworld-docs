@@ -2,3 +2,4 @@
 - csv_download_unfulfilled_supplier_line_items_retrieve
 - csv_fulfillment_create_create
 - csv_product_export_retrieve
+- csv_product_import_create
