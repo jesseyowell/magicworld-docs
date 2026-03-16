@@ -2,3 +2,4 @@
 - getaction
 - startmongodbexplainaction
 - startmysqlexplainaction
+- startmysqlexplainjsonaction
