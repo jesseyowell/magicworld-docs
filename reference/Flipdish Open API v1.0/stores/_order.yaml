@@ -16,3 +16,4 @@
 - getprocessingfeeconfigsbystoreidandpaymentaccounttype
 - getstores
 - createstore
+- clonestore
