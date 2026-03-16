@@ -16,3 +16,4 @@
 - changeexternalexporter
 - changemongodbexporter
 - changemysqldexporter
+- changenodeexporter
