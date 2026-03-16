@@ -35,3 +35,5 @@
 - provisionersprovisioner_idexternal-accountsexternal_account_id
 - >-
   provisionersprovisioner_idexternal-accountsexternal_account_idaccount-credentials
+- >-
+  provisionersprovisioner_idexternal-accountsexternal_account_idaccount-credentialscreds_id
