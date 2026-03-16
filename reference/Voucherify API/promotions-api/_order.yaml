@@ -7,3 +7,4 @@
 - delete-promotions-tiers-promotiontierid
 - post-promotions-tiers-promotiontierid-enable
 - post-promotions-tiers-promotiontierid-disable
+- get-promotions-stacks
