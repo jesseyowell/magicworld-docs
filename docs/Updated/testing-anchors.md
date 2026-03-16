@@ -18,32 +18,16 @@ OK COOL OK COOL OK COOL OK COOL OK COOL OK COOL OK COOL OK COOL OK COOL OK COOL 
 
 FINE! FINE! FINE! FINE! FINE! FINE! FINE! FINE! FINE! FINE! FINE! FINE!FINE! FINE! FINE! FINE! FINE! FINE!FINE! FINE! FINE! FINE! FINE! FINE!FINE! FINE! FINE! FINE! FINE! FINE!FINE! FINE! FINE! FINE! FINE! FINE!FINE! FINE! FINE! FINE! FINE! FINE!FINE! FINE! FINE! FINE! FINE! FINE!FINE! FINE! FINE! FINE! FINE! FINE!FINE! FINE! FINE! FINE! FINE! FINE!FINE! FINE! FINE! FINE! FINE! FINE!FINE! FINE! FINE! FINE! FINE! FINE!FINE! FINE! FINE! FINE! FINE! FINE!FINE! FINE! FINE! FINE! FINE! FINE!FINE! FINE! FINE! FINE! FINE! FINE!FINE! FINE! FINE! FINE! FINE! FINE!FINE! FINE! FINE! FINE! FINE! FINE!FINE! FINE! FINE! FINE! FINE! FINE!FINE! FINE! FINE! FINE! FINE! FINE!
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/834c568-Screen_Shot_2022-09-08_at_1.13.03_PM.png",
-        null,
-        ""
-      ],
-      "align": "center",
-      "border": true
-    }
-  ]
-}
-[/block]
-
-
+<Image align="center" className="border" border={true} src="https://files.readme.io/834c568-Screen_Shot_2022-09-08_at_1.13.03_PM.png" />
 
 ### Another H3 anchor
 
-Another one! Another one! Another one! Another one! Another one!  
-Another one! Another one! Another one! Another one! Another one!  
-Another one! Another one! Another one! Another one! Another one!  
-Another one! Another one! Another one! Another one! Another one!  
-Another one! Another one! Another one! Another one! Another one!  
-Another one! Another one! Another one! Another one! Another one!  
+Another one! Another one! Another one! Another one! Another one!\
+Another one! Another one! Another one! Another one! Another one!\
+Another one! Another one! Another one! Another one! Another one!\
+Another one! Another one! Another one! Another one! Another one!\
+Another one! Another one! Another one! Another one! Another one!\
+Another one! Another one! Another one! Another one! Another one!\
 Another one! Another one! Another one! Another one! Another one!
 
 hi hi hi hi
