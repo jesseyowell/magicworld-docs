@@ -3,3 +3,4 @@
 - products_retrieve
 - products_update
 - products_partial_update
+- products_destroy
