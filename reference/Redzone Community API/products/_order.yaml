@@ -10,3 +10,4 @@
 - post-products-productuuid-unitconversions
 - get-products-productuuid-unitconversions-unitconversionuuid
 - put-products-productuuid-unitconversions-unitconversionuuid
+- delete-products-productuuid-unitconversions-unitconversionuuid
