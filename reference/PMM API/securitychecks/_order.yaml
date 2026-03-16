@@ -1,3 +1,4 @@
 - changesecuritychecks
 - getfailedchecks
 - getsecuritycheckresults
+- listsecuritychecks
