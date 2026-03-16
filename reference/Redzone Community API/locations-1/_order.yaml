@@ -2,3 +2,4 @@
 - get-location-locationuuid-scheduledruns
 - post-location-locationuuid-scheduledruns
 - get-location-locationuuid-scheduledruns-runuuid
+- delete-location-locationuuid-scheduledruns-runuuid
