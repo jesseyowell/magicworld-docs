@@ -32,7 +32,7 @@ The payload objects youâ€™ll find in webhook requests are the same as those youâ
 
 # Request timeout and retries
 
-The server listening for webhooks has **_5 seconds_** to respond with a `2xx` response (usually `204` or `200`) to acknowledge successful delivery of the webhook. If there is no response within that time or the server responds with an error, the request will time out and it will be retried.
+The server listening for webhooks has ***5 seconds*** to respond with a `2xx` response (usually `204` or `200`) to acknowledge successful delivery of the webhook. If there is no response within that time or the server responds with an error, the request will time out and it will be retried.\
 The request will be retried up to 20 times over 48h and those retries will be scheduled with exponential back-off.
 
 # Verification
@@ -51,10 +51,11 @@ To do this, generate a signature by hashing the webhook request body and compare
 
 The `product.update` webhook is fired when a product is updated. That means it should fire when the user, for example, changes a product description.
 
-> **WARNING:** _This webhook is not the best choice for applications tracking inventory changes. There are a couple of reasons for this:
->- _NOT all events which cause an inventory change (e.g. sale, return, stock order/transfer) will trigger this webhook._
->- _inventory data included in the payload of this webhook may, in certain situations be not up to date with the latest state of the inventory._
->- _Applications looking for the most up to date data should be using the `inventory.update` webhook._
+> **WARNING:** \_This webhook is not the best choice for applications tracking inventory changes. There are a couple of reasons for this:
+>
+> * *NOT all events which cause an inventory change (e.g. sale, return, stock order/transfer) will trigger this webhook.*
+> * *inventory data included in the payload of this webhook may, in certain situations be not up to date with the latest state of the inventory.*
+> * *Applications looking for the most up to date data should be using the`inventory.update` webhook.*
 
 [Sample Payload](/tutorials/guides/webhooks/sample-payloads#productupdate)
 
