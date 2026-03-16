@@ -36,3 +36,4 @@
 - delete-loyalties-campaignid-rewards-assignmentid
 - post-loyalties-campaignid-members-memberid-redemption
 - post-loyalties-members-memberid-redemption
+- get-loyalties-campaignid-tiers
