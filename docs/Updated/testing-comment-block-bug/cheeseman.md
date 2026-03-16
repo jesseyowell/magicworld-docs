@@ -12,22 +12,6 @@ next:
 ---
 \<\<glossary:Cheese(Stinky)>> is great!
 
-
-
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/cabc3b0-Screenshot_2024-02-19_at_9.14.00_PM.png",
-        "",
-        ""
-      ],
-      "align": "center",
-      "sizing": "500px",
-      "border": true,
-      "caption": "EATING CHEESE?"
-    }
-  ]
-}
-[/block]
+<Image alt="EATING CHEESE?" align="center" width="500px" border={true} src="https://files.readme.io/cabc3b0-Screenshot_2024-02-19_at_9.14.00_PM.png">
+  EATING CHEESE?
+</Image>
