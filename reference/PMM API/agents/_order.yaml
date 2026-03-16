@@ -4,3 +4,4 @@
 - addmysqldexporter
 - addnodeexporter
 - addpmmagent
+- addpostgresexporter
