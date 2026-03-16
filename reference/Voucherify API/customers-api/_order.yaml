@@ -6,3 +6,4 @@
 - post-customers-customerid-permanent-deletion
 - post-customers-importcsv
 - post-customers-bulk-async
+- post-customers-metadata-async
