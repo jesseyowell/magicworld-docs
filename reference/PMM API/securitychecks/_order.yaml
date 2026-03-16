@@ -3,3 +3,4 @@
 - getsecuritycheckresults
 - listsecuritychecks
 - listfailedservices
+- startsecuritychecks
