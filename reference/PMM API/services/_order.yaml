@@ -5,3 +5,4 @@
 - addpostgresqlservice
 - addproxysqlservice
 - getservice
+- listservices
