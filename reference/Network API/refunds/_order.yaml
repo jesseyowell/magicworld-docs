@@ -3,3 +3,4 @@
 - retrieve-refund
 - capture-refund
 - void-refund
+- void-refund-by-idempotency-key
