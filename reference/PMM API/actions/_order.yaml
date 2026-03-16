@@ -9,3 +9,4 @@
 - startmysqlshowtablestatusaction
 - startptmongodbsummaryaction
 - startptmysqlsummaryaction
+- startptpgsummaryaction
