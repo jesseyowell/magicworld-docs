@@ -4,3 +4,4 @@
 - cancelcurrentlyinitiatedbluetoothdeviceupdate
 - initiatekioskbluetoothupdateinstall
 - initiatebluetoothterminaldeviceupdatecheck
+- unpaircurrentlypairedbluetoothdevice
