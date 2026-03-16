@@ -18,26 +18,11 @@ You can use fine-tuned image models to generate AI avatars, assets, and more!
 
 By the end of this guide, you should have a custom model you can use to generate AI avatars like this:
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://uploads-ssl.webflow.com/631e7debd95a0a0b974074e2/6363eb691262862207c3259e_Frame%20116.png",
-        null,
-        ""
-      ],
-      "sizing": "500px"
-    }
-  ]
-}
-[/block]
-
-
+<Image width="500px" src="https://uploads-ssl.webflow.com/631e7debd95a0a0b974074e2/6363eb691262862207c3259e_Frame%20116.png" />
 
 A quick overview of what you'll need to get started:
 
-1. An account on <https://www.leapml.dev/signup>  
+1. An account on [https://www.leapml.dev/signup](https://www.leapml.dev/signup)  
 2. Image samples to train your model on
 
 And an overview of the steps we'll cover in this guide:
@@ -65,7 +50,7 @@ To create a model using the dashboard:
 
 Now add your image samples. You can train on people, objects, or styles. For our example we'll be training on Alex.
 
-For best results, resize your image samples so that each sample is 512x512 (you can a website like <https://www.birme.net/> to do so). 
+For best results, resize your image samples so that each sample is 512x512 (you can a website like [https://www.birme.net/](https://www.birme.net/) to do so). 
 
 Also we recommend using 3+ images and making sure your subject is clearly in view. Next, click "Upload". 
 
@@ -93,8 +78,8 @@ Now, in the playground you'll be able to generate images by clicking "Generate".
 
 Add the "@me" identifier to your prompt and try out a few example prompts to get great looking AI Avatars!
 
-- Portrait Style 👉 "portrait of @me 8k photorealistic pretty young"
-- Van Goh Style 👉 "8k portrait of @me in van goh starry night style"
+* Portrait Style 👉 "portrait of @me 8k photorealistic pretty young"
+* Van Goh Style 👉 "8k portrait of @me in van goh starry night style"
 
 ![](https://files.readme.io/27e682e-Screen_Shot_2023-01-27_at_5.23.55_PM.png)
 
