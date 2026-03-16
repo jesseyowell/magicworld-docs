@@ -3,3 +3,4 @@
 - get-promotions-campaignid-tiers
 - post-promotions-campaign_id-tiers
 - get-promotions-tiers-promotiontierid
+- put-promotions-tiers-promotiontierid
