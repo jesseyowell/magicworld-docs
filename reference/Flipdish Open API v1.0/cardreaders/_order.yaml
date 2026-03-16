@@ -1,3 +1,4 @@
 - getbluetoothterminalstatus
 - authorizestripeterminal
 - initiatekioskbluetoothpairingmode
+- cancelcurrentlyinitiatedbluetoothdeviceupdate
