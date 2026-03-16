@@ -2,3 +2,4 @@
 - retrieve-customer
 - list-customer-grants
 - retrieve-customer-grant
+- revoke-customer-grant
