@@ -6,3 +6,4 @@
 - getfielddefinitions
 - getcountrieswithfielddefinitions
 - updatebankaccountstate
+- attachbankaccounttostore
