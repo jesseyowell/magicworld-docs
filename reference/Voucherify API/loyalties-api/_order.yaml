@@ -32,3 +32,4 @@
 - post-loyalties-campaignid-rewards
 - get-loyalties-campaignid-reward-assignments-assignmentid
 - get-loyalties-campaignid-rewards-assignmentid
+- put-loyalties-campaignid-rewards-assignmentid
