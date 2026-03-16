@@ -4,3 +4,4 @@
 - hydra_createemv
 - getemvterminaldetails
 - getkioskcashpaymentsettings
+- getemvorderstate
