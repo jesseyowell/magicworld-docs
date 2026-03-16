@@ -25,3 +25,4 @@
 - changeqanpostgresqlpgstatmonitoragent
 - changeqanpostgresqlpgstatementsagent
 - changerdsexporter
+- getagent
