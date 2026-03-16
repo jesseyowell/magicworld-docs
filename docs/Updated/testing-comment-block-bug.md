@@ -37,7 +37,7 @@ Trying to reproduce bug with comment blocks:
 
 7. TEST
 
-<!---->
+{/**/}
 
 1. OK
 2. YES
