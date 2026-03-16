@@ -2,3 +2,4 @@
 - post-categories
 - get-categories-categoryid
 - delete-categories-categoryid
+- put-categories-categoryid
