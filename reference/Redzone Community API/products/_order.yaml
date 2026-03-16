@@ -9,3 +9,4 @@
 - get-products-productuuid-unitconversions
 - post-products-productuuid-unitconversions
 - get-products-productuuid-unitconversions-unitconversionuuid
+- put-products-productuuid-unitconversions-unitconversionuuid
