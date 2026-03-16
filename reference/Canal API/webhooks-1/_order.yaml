@@ -3,3 +3,4 @@
 - webhooks_retrieve
 - webhooks_update
 - webhooks_partial_update
+- webhooks_destroy
