@@ -1,3 +1,4 @@
 - get-redemptions
 - get-redemptions-redemptionid
 - get-vouchers-code-redemption
+- post-vouchers-code-redemption
