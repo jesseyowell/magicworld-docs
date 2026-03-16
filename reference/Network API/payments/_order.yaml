@@ -3,3 +3,4 @@
 - retrieve-payment
 - capture-payment
 - void-payment
+- void-payment-by-idempotency-key
