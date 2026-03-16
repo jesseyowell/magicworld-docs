@@ -15,3 +15,4 @@
 - post-products-productuuid-locationconfigs
 - put-products-productuuid-locationconfigs
 - delete-products-productuuid-locationconfigs
+- get-products-productuuid-cycletargets
