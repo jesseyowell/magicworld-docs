@@ -12,8 +12,6 @@ next:
 ---
 # Search Service REST API
 
-
-
 # Search API
 
 Search API provides apis to query elastic search.
@@ -88,16 +86,16 @@ $ curl 'http://localhost:8080/api/v1/search' -i -X POST \
 
 ### Request fields
 
-| Path              | Type     | Description                                                  |
-| :---------------- | :------- | :----------------------------------------------------------- |
-| `recordsToReturn` | `Number` | Number of search results to return.                          |
-| `pageSize`        | `Number` | Number of search results to return in a page.                |
+| Path              | Type     | Description                                                                                                                                                                 |
+| :---------------- | :------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `recordsToReturn` | `Number` | Number of search results to return.                                                                                                                                         |
+| `pageSize`        | `Number` | Number of search results to return in a page.                                                                                                                               |
 | `pageOffset`      | `Number` | Number of pages to skip. For example, pageOffset=2 indicates to skip the first 2 pages of the search results and return the third page of the search results. Default is 0. |
-| `recordOffset`    | `Number` | Number of records to skip. For example, recordOffset=200 indicates to skip the first 200 search results and return the results starting from 201. Default is 0. |
-| `entityType`      | `String` | Name of the business entity within which you want to search. Default is all, which indicates to search across all business entities. |
-| `search`          | `String` | Search string. To retrieve all the records, use asterisk (*). |
-| `sort`            | `Array`  | Specifies a list of fields based on which you want to sort the search results. |
-| `filters`         | `Object` | Specifies a list of fields that you want to use as filters.  |
+| `recordOffset`    | `Number` | Number of records to skip. For example, recordOffset=200 indicates to skip the first 200 search results and return the results starting from 201. Default is 0.             |
+| `entityType`      | `String` | Name of the business entity within which you want to search. Default is all, which indicates to search across all business entities.                                        |
+| `search`          | `String` | Search string. To retrieve all the records, use asterisk (\*).                                                                                                              |
+| `sort`            | `Array`  | Specifies a list of fields based on which you want to sort the search results.                                                                                              |
+| `filters`         | `Object` | Specifies a list of fields that you want to use as filters.                                                                                                                 |
 
 ### Response Header
 
@@ -170,11 +168,11 @@ $ curl 'http://localhost:8080/api/v1/search' -i -X POST \
 
 ### Response fields
 
-| Path                   | Type     | Description                                                  |
-| :--------------------- | :------- | :----------------------------------------------------------- |
-| `searchRequest`        | `Object` | Contains the search term and other attributes related to search. |
-| `searchResult`         | `Object` | Contains the search results.                                 |
-| `searchResult.hits`    | `Number` | Number of search results.                                    |
+| Path                   | Type     | Description                                                                                   |
+| :--------------------- | :------- | :-------------------------------------------------------------------------------------------- |
+| `searchRequest`        | `Object` | Contains the search term and other attributes related to search.                              |
+| `searchResult`         | `Object` | Contains the search results.                                                                  |
+| `searchResult.hits`    | `Number` | Number of search results.                                                                     |
 | `searchResult.records` | `Array`  | Contains all the search results that are filtered and sorted based on the specified criteria. |
 
 ## Suggest Request
@@ -242,11 +240,11 @@ $ curl 'http://localhost:8080/api/v1/suggest' -i -X POST \
 
 ### Response fields
 
-| Path                    | Type     | Description                                                  |
-| :---------------------- | :------- | :----------------------------------------------------------- |
+| Path                    | Type     | Description                                                      |
+| :---------------------- | :------- | :--------------------------------------------------------------- |
 | `searchRequest`         | `Object` | Contains the search term and other attributes related to search. |
-| `searchResult`          | `Object` | Contains the Suggest result.                                 |
-| `searchResult.suggests` | `Array`  | Contains a list of suggestions for the specified string.     |
+| `searchResult`          | `Object` | Contains the Suggest result.                                     |
+| `searchResult.suggests` | `Array`  | Contains a list of suggestions for the specified string.         |
 
 ## Get-Metadata Request
 
@@ -422,16 +420,16 @@ $ curl 'http://localhost:8080/public/api/v1/search' -i -X POST \
 
 ### Request fields
 
-| Path              | Type     | Description                                                  |
-| :---------------- | :------- | :----------------------------------------------------------- |
-| `recordsToReturn` | `Number` | Number of search results to return.                          |
-| `pageSize`        | `Number` | Number of search results to return in a page.                |
+| Path              | Type     | Description                                                                                                                                                                 |
+| :---------------- | :------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `recordsToReturn` | `Number` | Number of search results to return.                                                                                                                                         |
+| `pageSize`        | `Number` | Number of search results to return in a page.                                                                                                                               |
 | `pageOffset`      | `Number` | Number of pages to skip. For example, pageOffset=2 indicates to skip the first 2 pages of the search results and return the third page of the search results. Default is 0. |
-| `recordOffset`    | `Number` | Number of records to skip. For example, recordOffset=200 indicates to skip the first 200 search results and return the results starting from 201. Default is 0. |
-| `entityType`      | `String` | Name of the business entity within which you want to search. Default is all, which indicates to search across all business entities. |
-| `search`          | `String` | Search string. To retrieve all the records, use asterisk (*). |
-| `sort`            | `Array`  | Specifies a list of fields based on which you want to sort the search results. |
-| `filters`         | `Object` | Specifies a list of fields that you want to use as filters.  |
+| `recordOffset`    | `Number` | Number of records to skip. For example, recordOffset=200 indicates to skip the first 200 search results and return the results starting from 201. Default is 0.             |
+| `entityType`      | `String` | Name of the business entity within which you want to search. Default is all, which indicates to search across all business entities.                                        |
+| `search`          | `String` | Search string. To retrieve all the records, use asterisk (\*).                                                                                                              |
+| `sort`            | `Array`  | Specifies a list of fields based on which you want to sort the search results.                                                                                              |
+| `filters`         | `Object` | Specifies a list of fields that you want to use as filters.                                                                                                                 |
 
 ### Response Header
 
@@ -476,8 +474,8 @@ $ curl 'http://localhost:8080/public/api/v1/search' -i -X POST \
 
 ### Response fields
 
-| Path                   | Type     | Description                                                  |
-| :--------------------- | :------- | :----------------------------------------------------------- |
-| `searchResult`         | `Object` | Contains the search results.                                 |
-| `searchResult.hits`    | `Number` | Number of search results.                                    |
+| Path                   | Type     | Description                                                                                   |
+| :--------------------- | :------- | :-------------------------------------------------------------------------------------------- |
+| `searchResult`         | `Object` | Contains the search results.                                                                  |
+| `searchResult.hits`    | `Number` | Number of search results.                                                                     |
 | `searchResult.records` | `Array`  | Contains all the search results that are filtered and sorted based on the specified criteria. |
