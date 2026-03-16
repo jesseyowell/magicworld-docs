@@ -6,3 +6,4 @@
 - get-validation-rules-assignments
 - get-validation-rules-validationruleid-assignments
 - post-validation-rules-validationruleid-assignments
+- delete-validation-rules-validationruleid-assignments-assignmentid
