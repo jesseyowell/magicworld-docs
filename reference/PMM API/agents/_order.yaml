@@ -8,3 +8,4 @@
 - addproxysqlexporter
 - addqanmongodbprofileragent
 - addqanmysqlperfschemaagent
+- addqanmysqlslowlogagent
