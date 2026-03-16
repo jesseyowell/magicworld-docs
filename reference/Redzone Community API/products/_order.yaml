@@ -4,3 +4,4 @@
 - put-products-productuuid
 - delete-products-productuuid
 - get-products-productuuid-groups
+- post-products-productuuid-groups
