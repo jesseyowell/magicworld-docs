@@ -3,3 +3,4 @@
 - get-validation-rules-validationruleid
 - put-validation-rules-validationruleid
 - delete-validation-rules-validationruleid
+- get-validation-rules-assignments
