@@ -10,3 +10,4 @@
 - getmenuscheckpoints
 - getallmenumetadatabymenuidandstoreid
 - menus_getmenubulkshowhide
+- getmenuitemmetadata
