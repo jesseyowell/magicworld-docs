@@ -14,7 +14,6 @@ next:
 
 ## `product.update`
 
-
 ```json
 {
     "active": true,
@@ -375,7 +374,7 @@ next:
 }
 ```
 
-## register_closure.create
+## register\_closure.create
 
 ```json
 {
