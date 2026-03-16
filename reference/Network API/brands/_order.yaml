@@ -2,3 +2,4 @@
 - create-brand
 - upsert-brand
 - retrieve-brand
+- update-brand
