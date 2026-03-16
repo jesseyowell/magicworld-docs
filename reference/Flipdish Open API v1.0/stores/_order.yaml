@@ -3,3 +3,4 @@
 - getbankaccountforstore
 - getendofdayreport
 - getbusinesshours
+- setbusinesshours
