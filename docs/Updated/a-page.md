@@ -16,8 +16,6 @@ next:
 
 OK OK!
 
-[block:html]
-{
-  "html": "<div></div>"
-}
-[/block]
+<HTMLBlock>{`
+<div></div>
+`}</HTMLBlock>
