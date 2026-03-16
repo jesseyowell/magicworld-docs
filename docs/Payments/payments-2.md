@@ -10,39 +10,145 @@ metadata:
 next:
   description: ''
 ---
-[block:html]
-{
-  "html": "<div>This section is a brief guide about <mark>payments</mark> management like \n  how to send or receive payment using one of the available payment methods: \n PrintedCheck, ACH, Card and Wire\n</div>\n\n<style></style>"
-}
-[/block]
+<HTMLBlock>{`
+<div>This section is a brief guide about <mark>payments</mark> management like 
+  how to send or receive payment using one of the available payment methods: 
+ PrintedCheck, ACH, Card and Wire
+</div>
 
-[block:parameters]
-{
-  "data": {
-    "h-0": "Field",
-    "h-1": "Description",
-    "0-0": "**id**\n*string* ",
-    "1-0": "**amount_cents**\n*integer* ",
-    "2-0": "**status**\n*select*",
-    "3-0": "**payment_method**\n*string* ",
-    "4-0": "**status_detail**\n*string* ",
-    "5-0": "**invoices**\n*object* ",
-    "6-0": "**installments**\n*object* ",
-    "7-0": "**originating_counterparty_id**\n*string* ",
-    "8-0": "**receiving_counterparty_id**\n*string* ",
-    "9-0": "**tracking_id**\n*string* ",
-    "2-1": "Current payment status:\n\n**pending**: Payment is being prepared for payment.\n\n**in-progress**: Payment for this invoice is in-progress.\n\n**complete**: Payment for this invoice has been resolved.\n\n**failed**: An exception has occurred during payment processing.",
-    "0-1": "Unique identifier for the payment.",
-    "1-1": "Amount paid to be entered in cents",
-    "3-1": "Method used for the payment. Available options are: PrintedCheck, ACH, Card and Wire",
-    "5-1": "List of invoices associated with this payment.",
-    "6-1": "List of invoice installments associated with this payment.",
-    "4-1": "Additional information regarding current status expressed as key-value pairs.",
-    "7-1": "The ID of one of your organization's internal counterparties (Buyer) that will send payment.",
-    "8-1": "The ID of one of your external counterparties (Supplier) that will receive payment.",
-    "9-1": "Its used to reference this payment when communicating with Finexio's Customer Support and Payment Operations teams."
-  },
-  "cols": 2,
-  "rows": 10
-}
-[/block]
+<style></style>
+`}</HTMLBlock>
+
+<Table align={["left","left"]}>
+  <thead>
+    <tr>
+      <th style={{ textAlign: "left" }}>
+        Field
+      </th>
+
+      <th style={{ textAlign: "left" }}>
+        Description
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td style={{ textAlign: "left" }}>
+        **id**
+        *string* 
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        Unique identifier for the payment.
+      </td>
+    </tr>
+
+    <tr>
+      <td style={{ textAlign: "left" }}>
+        **amount\_cents**\
+        *integer* 
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        Amount paid to be entered in cents
+      </td>
+    </tr>
+
+    <tr>
+      <td style={{ textAlign: "left" }}>
+        **status**\
+        *select*
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        Current payment status:
+
+        * \*pending\*\*: Payment is being prepared for payment.
+
+        * \*in-progress\*\*: Payment for this invoice is in-progress.
+
+        * \*complete\*\*: Payment for this invoice has been resolved.
+
+        * \*failed\*\*: An exception has occurred during payment processing.
+      </td>
+    </tr>
+
+    <tr>
+      <td style={{ textAlign: "left" }}>
+        **payment\_method**\
+        *string* 
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        Method used for the payment. Available options are: PrintedCheck, ACH, Card and Wire
+      </td>
+    </tr>
+
+    <tr>
+      <td style={{ textAlign: "left" }}>
+        **status\_detail**\
+        *string* 
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        Additional information regarding current status expressed as key-value pairs.
+      </td>
+    </tr>
+
+    <tr>
+      <td style={{ textAlign: "left" }}>
+        **invoices**\
+        *object* 
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        List of invoices associated with this payment.
+      </td>
+    </tr>
+
+    <tr>
+      <td style={{ textAlign: "left" }}>
+        **installments**\
+        *object* 
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        List of invoice installments associated with this payment.
+      </td>
+    </tr>
+
+    <tr>
+      <td style={{ textAlign: "left" }}>
+        **originating\_counterparty\_id**\
+        *string* 
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        The ID of one of your organization's internal counterparties (Buyer) that will send payment.
+      </td>
+    </tr>
+
+    <tr>
+      <td style={{ textAlign: "left" }}>
+        **receiving\_counterparty\_id**\
+        *string* 
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        The ID of one of your external counterparties (Supplier) that will receive payment.
+      </td>
+    </tr>
+
+    <tr>
+      <td style={{ textAlign: "left" }}>
+        **tracking\_id**\
+        *string* 
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        Its used to reference this payment when communicating with Finexio's Customer Support and Payment Operations teams.
+      </td>
+    </tr>
+  </tbody>
+</Table>
