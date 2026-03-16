@@ -59,7 +59,7 @@ UserLeap has a total of 5 question types:
 
 **Survey Logic** \(4\)**:** All question types support survey skip logic. This is an easy way to segment questions based on audience responses. For example, if you ask “how easy to use is feature xyz,” you can show a different Q2 based on whether or not they had a positive experience \(answered 4 or 5, as compared to 1,2,3\). 
 
-_Here's more information on_ [_**UserLeap skip logic**_](../product-workflows/adding-and-removing-skip-logic.md)_\*\*\*\*_
+*Here's more information on* [***UserLeap skip logic***](../product-workflows/adding-and-removing-skip-logic.md)*\*\*\*\**
 
 **Save Changes** \(5\): Please remember to save changes
 
@@ -69,9 +69,9 @@ _Here's more information on_ [_**UserLeap skip logic**_](../product-workflows/ad
 
 **Choose a Platform** \(1\):  A microsurvey is limited to a single platform; you have the option to pick from Web \(including mobile web browsers\), Mobile, Email \(available on Enterprise and Essentials\), or Shareable Link
 
-_Here's how you_ [_**launch an email microsurvey**_](../product-workflows/creating-an-email-survey.md)_\*\*\*\*_
+*Here's how you* [***launch an email microsurvey***](../product-workflows/creating-an-email-survey.md)*\*\*\*\**
 
-**Microsurvey Trigger** \(2\): Audience targeting requires that you add at least one event to UserLeap \(click ****[**here**](./)\). If you've already added an event, please select the event from the dropdown 
+**Microsurvey Trigger** \(2\): Audience targeting requires that you add at least one event to UserLeap \(click \***\*\[**&#x68;ere\*\*]\(./)\). If you've already added an event, please select the event from the dropdown 
 
 **Microsurvey Filters** \(3\): Like a trigger, a filter is used to further target audiences you have defined on the UserLeap platform. 
 
@@ -87,7 +87,7 @@ Examples of events include:
 
 Your events can be found [**here**](http://app.userleap.com/events)\*\*\*\*
 
-_Refresh your knowledge of events_ [_**here**_](../product-definitions/events.md)_\*\*\*\*_
+*Refresh your knowledge of events* [***here***](../product-definitions/events.md)*\*\*\*\**
 
 **Trigger:** The event that must take place for a user to qualify for a microsurvey. Each microsurvey MUST have a trigger. Triggers are also known as [**events**](../product-definitions/events.md#what-is-a-userleap-event). 
 
@@ -99,21 +99,21 @@ _Refresh your knowledge of events_ [_**here**_](../product-definitions/events.md
 * Sessions in UserLeap are measured as 12-hour windows in which the user is active.
 * Page views are only applicable to web microsurveys \(will not be displayed for email, mobile, link-based microsurveys\)
 
-\_\_[_**Here's a quick guide**_ ](../product-workflows/interacting-with-survey-filters.md)_on how to use microsurvey filters_ 
+\_\_[***Here's a quick guide*** ](../product-workflows/interacting-with-survey-filters.md)*on how to use microsurvey filters* 
 
-_Learn more about UserLeap attributes_ [_**here**_](../product-definitions/attributes.md)_\*\*\*\*_
+*Learn more about UserLeap attributes* [***here***](../product-definitions/attributes.md)*\*\*\*\**
 
 **Total Responses**: In web and mobile microsurveys, you can choose to either deliver until a certain statistical confidence threshold has been met \(set number of responses\) or you can choose to deliver continuously \(no limit on responses\). With email surveys, you also have the option to deliver immediately to eligible recipients.
 
 If choosing to run until a confidence threshold has been met, you can choose from one of several recommended trade-offs between statistical confidence and speed of obtaining results. Generally, requiring less confidence means you will get results faster. 
 
-_You can also choose your own set number of responses using the_ [_**Custom option**_](../product-workflows/custom-audience-sampling.md)_._
+*You can also choose your own set number of responses using the* [***Custom option***](../product-workflows/custom-audience-sampling.md)*.*
 
 **Resurvey Window**: To avoid sending the same user multiple microsurveys \(different surveys\), UserLeap designed a resurvey window that can be set in two places. 
 
 The global resurvey window is under your [**settings page**](http://app.userleap.com/settings)\*\*\*\*
 
-_Read more about_ [_**UserLeap resurvey windows**_](../product-definitions/re-survey-windows.md)_\*\*\*\*_
+*Read more about* [***UserLeap resurvey windows***](../product-definitions/re-survey-windows.md)*\*\*\*\**
 
 This is the number of days an individual MUST wait before qualifying to receive another microsurvey from UserLeap. 
 
@@ -127,6 +127,6 @@ Changing this number will allow this specific microsurvey \(and not any other mi
 
 ![](https://p35.tr2.n0.cdn.getcloudapp.com/items/Jru4npLG/30ff6a66-9b62-49fc-83b8-6f8f57a1bf0c.gif?v=b7a8943e953fa2ce34820a2dbb27b1c2)
 
-{% hint style="info" %}
-If you have any questions please email us at **success@userleap.com** or use the in-product help chat
-{% endhint %}
+\{% hint style="info" %}\
+If you have any questions please email us at **[success@userleap.com](mailto:success@userleap.com)** or use the in-product help chat\
+\{% endhint %}
