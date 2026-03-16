@@ -90,3 +90,4 @@
 - payments_all
 - lpslp_idpaymentspayment_auth_idpermission-sets
 - lpslp_idpaymentspayment_auth_idrefundsrefund_idpermission-sets
+- lpslp_idpaymentspayment_auth_idcapturescapture_idpermission-sets
