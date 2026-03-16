@@ -8,3 +8,4 @@
 - put-products-productuuid-groups
 - get-products-productuuid-unitconversions
 - post-products-productuuid-unitconversions
+- get-products-productuuid-unitconversions-unitconversionuuid
