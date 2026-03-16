@@ -12,3 +12,4 @@
 - startptpgsummaryaction
 - startptsummaryaction
 - startpostgresqlshowcreatetableaction
+- startpostgresqlshowindexaction
