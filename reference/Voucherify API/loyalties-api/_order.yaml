@@ -1,3 +1,4 @@
 - get-loyalties
 - post-loyalties
 - get-loyalties-loyalty_campaignid_or_name
+- put-loyalties-loyalty_campaignid_or_name
