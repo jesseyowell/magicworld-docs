@@ -10,3 +10,4 @@
 - put-customers-customerid-consents
 - put-customers-customerid-consents-client_side
 - get-customers-customerid-activities
+- get-customers-customerid-segments
