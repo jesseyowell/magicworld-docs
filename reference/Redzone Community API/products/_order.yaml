@@ -13,3 +13,4 @@
 - delete-products-productuuid-unitconversions-unitconversionuuid
 - get-products-productuuid-locationconfigs
 - post-products-productuuid-locationconfigs
+- put-products-productuuid-locationconfigs
