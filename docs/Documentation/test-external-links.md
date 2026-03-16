@@ -15,8 +15,7 @@ next:
 ## Hi
 
 ### Hi
-[block:html]
-{
-  "html": "<a href=\"https://google.com\" target=\"_blank\">External link<a/>"
-}
-[/block]
+
+<HTMLBlock>{`
+<a href="https://google.com" target="_blank">External link<a/>
+`}</HTMLBlock>
