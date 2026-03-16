@@ -17,7 +17,7 @@ next:
       slug: test-external-links
       title: Test external links
 ---
-```Text SELECT \* from \_events
+```Text SELECT * from _events
 +--------------------------------------+---------------+--------+---------------+------+
 | _id                                  | eventTime     | kind   | label         | type |
 +--------------------------------------+---------------+--------+---------------+------+
