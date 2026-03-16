@@ -2,3 +2,4 @@
 - create-payment
 - retrieve-payment
 - capture-payment
+- void-payment
