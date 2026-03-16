@@ -6,3 +6,4 @@
 - post-products-bulk-async
 - post-products-metadata-async
 - get-skus-sku_id
+- get-products-productid-skus
