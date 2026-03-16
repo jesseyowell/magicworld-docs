@@ -12,3 +12,4 @@
 - menus_getmenubulkshowhide
 - getmenuitemmetadata
 - setmenuitemmetadata
+- getmenuitemmetadatabykey
