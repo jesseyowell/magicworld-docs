@@ -2,3 +2,4 @@
 - fulfillments_create
 - fulfillments_retrieve
 - fulfillments_update
+- fulfillments_partial_update
