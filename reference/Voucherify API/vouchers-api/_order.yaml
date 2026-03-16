@@ -9,3 +9,4 @@
 - post-vouchers-code-balance
 - get-vouchers-code-transactions
 - post-vouchers-code-transactions-export
+- post-vouchers-import
