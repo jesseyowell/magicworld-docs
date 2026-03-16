@@ -2,3 +2,4 @@
 - create-refund
 - retrieve-refund
 - capture-refund
+- void-refund
