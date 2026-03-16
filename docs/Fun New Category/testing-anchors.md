@@ -10,51 +10,30 @@ metadata:
 next:
   description: ''
 ---
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/80921cd-A015B5DA-207C-45C2-A6B3-FA14720F40AF.JPG",
-        "A015B5DA-207C-45C2-A6B3-FA14720F40AF.JPG",
-        750,
-        1334,
-        "#34201a"
-      ]
-    }
-  ]
-}
-[/block]
+![750](https://files.readme.io/80921cd-A015B5DA-207C-45C2-A6B3-FA14720F40AF.JPG "A015B5DA-207C-45C2-A6B3-FA14720F40AF.JPG")
+
 Type here for more useful stuff! Type here for more useful stuff! Type here for more useful stuff! Type here for more useful stuff! Type here for more useful stuff! Type here for more useful stuff! Type here for more useful stuff! Type here for more useful stuff! Type here for more useful stuff! Type here for more useful stuff! Type here for more useful stuff! Type here for more useful stuff! Type here for more useful stuff! Type here for more useful stuff! Type here for more useful stuff! Type here for more useful stuff! Type here for more useful stuff! Type here for more useful stuff! Type here for more useful stuff! Type here for more useful stuff! Type here for more useful stuff! Type here for more useful stuff! Type here for more useful stuff! Type here for more useful stuff! Type here for more useful stuff! Type here for more useful stuff!
 
-###H3 anchor 
+### H3 anchor 
 
 OK COOL OK COOL OK COOL OK COOL OK COOL OK COOL OK COOL OK COOL OK COOL OK COOL OK COOL OK COOL OK COOL OK COOL OK COOL OK COOL OK COOL OK COOL OK COOL OK COOL OK COOL OK COOL 
 
+## Normal Header Widget
 
-[block:api-header]
-{
-  "title": "Normal Header Widget"
-}
-[/block]
 FINE! FINE! FINE! FINE! FINE! FINE! FINE! FINE! FINE! FINE! FINE! FINE!FINE! FINE! FINE! FINE! FINE! FINE!FINE! FINE! FINE! FINE! FINE! FINE!FINE! FINE! FINE! FINE! FINE! FINE!FINE! FINE! FINE! FINE! FINE! FINE!FINE! FINE! FINE! FINE! FINE! FINE!FINE! FINE! FINE! FINE! FINE! FINE!FINE! FINE! FINE! FINE! FINE! FINE!FINE! FINE! FINE! FINE! FINE! FINE!FINE! FINE! FINE! FINE! FINE! FINE!FINE! FINE! FINE! FINE! FINE! FINE!FINE! FINE! FINE! FINE! FINE! FINE!FINE! FINE! FINE! FINE! FINE! FINE!FINE! FINE! FINE! FINE! FINE! FINE!FINE! FINE! FINE! FINE! FINE! FINE!FINE! FINE! FINE! FINE! FINE! FINE!FINE! FINE! FINE! FINE! FINE! FINE!FINE! FINE! FINE! FINE! FINE! FINE!
 
-###Another H3 anchor
+### Another H3 anchor
 
-Another one! Another one! Another one! Another one! Another one! 
-Another one! Another one! Another one! Another one! Another one!
-Another one! Another one! Another one! Another one! Another one!
-Another one! Another one! Another one! Another one! Another one!
-Another one! Another one! Another one! Another one! Another one!
-Another one! Another one! Another one! Another one! Another one!
+Another one! Another one! Another one! Another one! Another one!\
+Another one! Another one! Another one! Another one! Another one!\
+Another one! Another one! Another one! Another one! Another one!\
+Another one! Another one! Another one! Another one! Another one!\
+Another one! Another one! Another one! Another one! Another one!\
+Another one! Another one! Another one! Another one! Another one!\
 Another one! Another one! Another one! Another one! Another one!
 
+## Second Header Widget
 
-[block:api-header]
-{
-  "title": "Second Header Widget"
-}
-[/block]
 More information and information More information and informationMore information and informationMore information and informationMore information and informationMore information and informationMore information and informationMore information and informationMore information and informationMore information and informationMore information and informationMore information and informationMore information and informationMore information and informationMore information and informationMore information and informationMore information and informationMore information and informationMore information and informationMore information and informationMore information and informationMore information and informationMore information and information
 
 ### Yet Another H3 anchor
