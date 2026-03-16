@@ -2,3 +2,4 @@
 - get_v1-user-intent-id
 - post_v1-user-intent
 - post_v1-documents-create-upload-url
+- post_v1-documents-confirm-upload
