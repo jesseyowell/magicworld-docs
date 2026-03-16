@@ -19,3 +19,4 @@
 - changenodeexporter
 - changepostgresexporter
 - changeproxysqlexporter
+- changeqanmongodbprofileragent
