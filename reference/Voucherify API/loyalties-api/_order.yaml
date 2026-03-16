@@ -25,3 +25,4 @@
 - delete-loyalties-campaignid-earning-rules-earningruleid
 - post-loyalties-campaignid-earning-rules-earningruleid-enable
 - post-loyalties-campaignid-earning-rules-earningruleid-disable
+- get-loyalties-members-memberid-rewards
