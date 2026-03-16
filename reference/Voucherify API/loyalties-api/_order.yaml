@@ -5,3 +5,4 @@
 - delete-loyalties-loyalty_campaignid_or_name
 - get-loyalties-campaignid-members
 - post-loyalties-campaignid-members
+- get-loyalties-campaignid-members-memberid
