@@ -2,3 +2,4 @@
 - getoauthclientbyclientid
 - updateoauthapp
 - deleteoauthapp
+- getoauthclientsecret
