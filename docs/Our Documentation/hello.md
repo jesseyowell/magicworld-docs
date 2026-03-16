@@ -12,24 +12,51 @@ next:
 ---
 hello <br /> let's eat cheese <br /> thanks!
 
-[block:parameters]
-{
-  "data": {
-    "h-0": "Column1",
-    "h-1": "Column2",
-    "h-2": "Column3",
-    "0-0": "<p>block failure</p>",
-    "0-1": "<a href=\"https://www.google.com\">Google</a>",
-    "0-2": "<p>poop!</p>",
-    "1-0": "<ul><li>beef\n4</li></ul>",
-    "1-1": "safafasfsaf"
-  },
-  "cols": 3,
-  "rows": 2,
-  "align": [
-    "left",
-    "left",
-    "left"
-  ]
-}
-[/block]
+<Table align={["left","left","left"]}>
+  <thead>
+    <tr>
+      <th style={{ textAlign: "left" }}>
+        Column1
+      </th>
+
+      <th style={{ textAlign: "left" }}>
+        Column2
+      </th>
+
+      <th style={{ textAlign: "left" }}>
+        Column3
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td style={{ textAlign: "left" }}>
+        <p>block failure</p>
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        <a href="https://www.google.com">Google</a>
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        <p>poop!</p>
+      </td>
+    </tr>
+
+    <tr>
+      <td style={{ textAlign: "left" }}>
+        <ul><li>beef
+        4</li></ul>
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        safafasfsaf
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+
+      </td>
+    </tr>
+  </tbody>
+</Table>
