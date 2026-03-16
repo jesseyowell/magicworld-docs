@@ -2,3 +2,4 @@
 - addexternalexporter
 - addmongodbexporter
 - addmysqldexporter
+- addnodeexporter
