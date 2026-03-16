@@ -3,3 +3,4 @@
 - removestoregroup
 - getstoregroups
 - createstoregroup
+- getstoregroupsextended
