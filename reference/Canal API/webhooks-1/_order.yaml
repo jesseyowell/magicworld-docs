@@ -1,3 +1,4 @@
 - webhooks_list
 - webhooks_create
 - webhooks_retrieve
+- webhooks_update
