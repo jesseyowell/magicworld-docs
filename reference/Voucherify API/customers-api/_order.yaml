@@ -1,3 +1,4 @@
 - get-customers
 - post-customers
 - get-customers-customerid
+- delete-customers-customerid
