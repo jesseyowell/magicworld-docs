@@ -10,3 +10,4 @@
 - addqanmysqlperfschemaagent
 - addqanmysqlslowlogagent
 - addqanpostgresqlpgstatmonitoragent
+- addqanpostgresqlpgstatementsagent
