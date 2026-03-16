@@ -2,3 +2,4 @@
 - post_v1-accounts
 - get_v1-accounts-id
 - delete_v1-accounts-id
+- post_v1-accounts-create
