@@ -10,50 +10,181 @@ metadata:
 next:
   description: ''
 ---
-<Pigs>
-<beans>
-<horses>
+<Table align={["left","left","left"]}>
+  <thead>
+    <tr>
+      <th style={{ textAlign: "left" }}>
+        FUNKY
+      </th>
+
+      <th style={{ textAlign: "left" }}>
+        API
+      </th>
+
+      <th style={{ textAlign: "left" }}>
+        STUFF
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td style={{ textAlign: "left" }}>
+        &lt;CHEESE&gt;
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        Fun
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        OK
+      </td>
+    </tr>
+
+    <tr>
+      <td style={{ textAlign: "left" }}>
+        &lt;FEET&gt;
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        Bad
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        NO
+      </td>
+    </tr>
+  </tbody>
+</Table>
+
+<Embed url="https://www.youtube.com/watch?v=FuX5_OWObA0" title="Rainbow Road" favicon="https://www.youtube.com/s/desktop/55d33fd3/img/favicon.ico" image="https://i.ytimg.com/vi/FuX5_OWObA0/hqdefault.jpg" provider="youtube.com" href="https://www.youtube.com/watch?v=FuX5_OWObA0" html="%3Ciframe%20class%3D%22embedly-embed%22%20src%3D%22%2F%2Fcdn.embedly.com%2Fwidgets%2Fmedia.html%3Fsrc%3Dhttps%253A%252F%252Fwww.youtube.com%252Fembed%252FFuX5_OWObA0%253Ffeature%253Doembed%26display_name%3DYouTube%26url%3Dhttps%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DFuX5_OWObA0%26image%3Dhttps%253A%252F%252Fi.ytimg.com%252Fvi%252FFuX5_OWObA0%252Fhqdefault.jpg%26key%3Df2aa6fc3595946d0afc3d76cbbd25dc3%26type%3Dtext%252Fhtml%26schema%3Dyoutube%22%20width%3D%22640%22%20height%3D%22480%22%20scrolling%3D%22no%22%20title%3D%22YouTube%20embed%22%20frameborder%3D%220%22%20allow%3D%22autoplay%3B%20fullscreen%22%20allowfullscreen%3D%22true%22%3E%3C%2Fiframe%3E" />
+
+<HTMLBlock>{`
+<style>
+@keyframes
+x{}</style>
 
 
-[block:parameters]
-{
-  "data": {
-    "h-0": "FUNKY",
-    "h-1": "API",
-    "h-2": "STUFF",
-    "0-0": "<CHEESE>",
-    "0-1": "Fun",
-    "0-2": "OK",
-    "1-0": "<FEET>",
-    "1-1": "Bad",
-    "1-2": "NO"
-  },
-  "cols": 3,
-  "rows": 2
-}
-[/block]
 
-[block:embed]
-{
-  "html": "<iframe class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FFuX5_OWObA0%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DFuX5_OWObA0&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FFuX5_OWObA0%2Fhqdefault.jpg&key=f2aa6fc3595946d0afc3d76cbbd25dc3&type=text%2Fhtml&schema=youtube\" width=\"640\" height=\"480\" scrolling=\"no\" title=\"YouTube embed\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen=\"true\"></iframe>",
-  "url": "https://www.youtube.com/watch?v=FuX5_OWObA0",
-  "title": "Rainbow Road",
-  "favicon": "https://www.youtube.com/s/desktop/55d33fd3/img/favicon.ico",
-  "image": "https://i.ytimg.com/vi/FuX5_OWObA0/hqdefault.jpg"
-}
-[/block]
 
-[block:html]
-{
-  "html": "<style>\n@keyframes\nx{}</style><xss style=\"animation-name:x\"onanimationend=\"javascript:eval('alert(document.domain)')\"></xss>\n</style>"
-}
-[/block]
-name: <<name>>
-e-mail: <<email>>
-handle: <<handle>>
 
-food: <<food_name>>
 
-```markdown Tab A
-Lorem ipsum
-```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+name: {user.name}\
+e-mail: {user.email}\
+handle: {user.handle}
+
+food: {user.food_name}
