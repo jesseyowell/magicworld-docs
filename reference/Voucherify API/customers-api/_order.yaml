@@ -4,3 +4,4 @@
 - delete-customers-customerid
 - put-customers-customerid
 - post-customers-customerid-permanent-deletion
+- post-customers-importcsv
