@@ -1,3 +1,4 @@
 - list-merchants
 - create-merchant
 - upsert-merchant
+- retrieve-merchant
