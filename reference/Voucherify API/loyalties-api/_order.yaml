@@ -16,3 +16,4 @@
 - get-loyalties-members-memberid-transactions
 - post-loyalties-members-memberid-transactions-export
 - post-loyalties-campaignid-members-memberid-transactions-export
+- get-loyalties-campaignid-members-memberid-points-expiration
