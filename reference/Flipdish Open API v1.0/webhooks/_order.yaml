@@ -7,3 +7,4 @@
 - updatewebhooksubscription
 - deletewebhooksubscription
 - createwebhooksubscriptioneventnames
+- deletewebhooksubscriptioneventname
