@@ -27,3 +27,4 @@
 - post-loyalties-campaignid-earning-rules-earningruleid-disable
 - get-loyalties-members-memberid-rewards
 - get-loyalties-campaignid-reward-assignments-assignmentid-reward
+- get-loyalties-campaignid-reward-assignments
