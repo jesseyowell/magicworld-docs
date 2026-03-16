@@ -12,3 +12,4 @@
 - addqanpostgresqlpgstatmonitoragent
 - addqanpostgresqlpgstatementsagent
 - addrdsexporter
+- changeazuredatabaseexporter
