@@ -3,3 +3,4 @@
 - get-customers-customerid
 - delete-customers-customerid
 - put-customers-customerid
+- post-customers-customerid-permanent-deletion
