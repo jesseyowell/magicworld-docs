@@ -9,3 +9,4 @@
 - get-loyalties-members-memberid
 - get-loyalties-campaignid-members-memberid-activities
 - get-loyalties-members-memberid-activities
+- post-loyalties-campaignid-members-memberid-balance
