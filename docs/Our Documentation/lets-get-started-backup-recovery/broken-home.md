@@ -10,107 +10,39 @@ metadata:
 next:
   description: ''
 ---
-#Get Home
-For a full functional description of Get Home, see TBD
-##Declaration
-[block:code]
-{
-  "codes": [
-    {
-      "code": "public Poi getHome()\n"
-    }
-  ]
-}
-[/block]
+# Get Home
 
-##Example
-[block:code]
-{
-  "codes": [
-    {
-      "code": "Poi home = JedAISmartPoi.getInstance().getHome();",
-      "language": "java"
-    }
-  ]
-}
-[/block]
-##Return Value
-[block:code]
-{
-  "codes": [
-    {
-      "code": " @return {@link Poi} of the latest calculated home place",
-      "language": "java"
-    }
-  ]
-}
-[/block]
+For a full functional description of Get Home, see TBD\
+\##Declaration
 
-#Is Near Home
-[block:code]
-{
-  "codes": [
-    {
-      "code": "public boolean isNearHome(@IntRange(from = 0) int distance, @NonNull Location from)",
-      "language": "java"
-    }
-  ]
-}
-[/block]
+```
+public Poi getHome()
+```
 
-##Example
-[block:code]
-{
-  "codes": [
-    {
-      "code": "",
-      "language": "java"
-    }
-  ]
-}
-[/block]
-##Return Value
-[block:code]
-{
-  "codes": [
-    {
-      "code": "",
-      "language": "java"
-    }
-  ]
-}
-[/block]
+## Example
 
-#Get TBD
-[block:code]
-{
-  "codes": [
-    {
-      "code": "",
-      "language": "java"}
-  ]
-}
-[/block]
+```java
+Poi home = JedAISmartPoi.getInstance().getHome();
+```
 
-##Example
-[block:code]
-{
-  "codes": [
-    {
-      "code": "",
-      "language": "java"
-    }
-  ]
-}
-[/block]
-##Return Value
-[block:code]
-{
-  "codes": [
-    {
-      "code": "",
-      "language": "java"
-    }
-  ]
-}
-[/block]
+## Return Value
+
+```java
+@return {@link Poi} of the latest calculated home place
+```
+
+# Is Near Home
+
+```java
+public boolean isNearHome(@IntRange(from = 0) int distance, @NonNull Location from)
+```
+
+## Example
+
+## Return Value
+
+# Get TBD
+
+## Example
+
+## Return Value
