@@ -2,3 +2,4 @@
 - get-campaigns
 - get-campaigns-campaignid
 - put-campaigns-campaignid
+- delete-campaigns-campaignid
