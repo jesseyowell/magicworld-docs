@@ -2,3 +2,4 @@
 - getfailedchecks
 - getsecuritycheckresults
 - listsecuritychecks
+- listfailedservices
