@@ -1,0 +1,15 @@
+---
+title: Get Authorization Key for Stripe Terminal
+excerpt: "Can only be called by Kiosk\r\n[BETA - this endpoint is under development, do not use it in your production system]"
+api:
+  file: flipdish-open-api-v10.json
+  operationId: AuthorizeStripeTerminal
+deprecated: false
+hidden: false
+metadata:
+  title: ''
+  description: ''
+  robots: noindex
+next:
+  description: ''
+---
