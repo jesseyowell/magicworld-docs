@@ -10,7 +10,7 @@ metadata:
 next:
   description: ''
 ---
-| Syntax    | Description | FFF                 |
-| :-------- | :---------- | :------------------ |
-| Header    |             | `Cheese \| burrito` |
-| Paragraph | Text        |                     |
+| Syntax    | Description | FFF                  |
+| :-------- | :---------- | :------------------- |
+| Header    |             | `Cheese \\| burrito` |
+| Paragraph | Text        |                      |
