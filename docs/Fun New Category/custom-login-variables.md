@@ -10,11 +10,11 @@ metadata:
 next:
   description: ''
 ---
-name: <<name>>
-e-mail: <<email>>
-handle: <<handle>>
+name: {user.name}\
+e-mail: {user.email}\
+handle: {user.handle}
 
-food: <<food_name>>
+food: {user.food_name}
 
 ```markdown Tab A
 Lorem ipsum
