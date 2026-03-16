@@ -4,3 +4,4 @@
 - products_update
 - products_partial_update
 - products_destroy
+- products_reorder_variants_create
