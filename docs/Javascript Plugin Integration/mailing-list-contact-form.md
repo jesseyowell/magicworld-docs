@@ -74,61 +74,63 @@ You can easily add a contact us / mailing list signup form to any page, as follo
 
 ## Parameter Notes
 
-The `table_or_div` element is required. When set to "table", the mailing list form will be
+The `table_or_div` element is required. When set to "table", the mailing list form will be\
 constructed as an HTML table; if set to "div", the form will be built using divs.
 
-- ☞ In general, it is easier to style the elements with divs.
+* ☞ In general, it is easier to style the elements with divs.
 
-The `display_mode` element dictates how the form will be rendered. If set to "inline" or
-omitted, then the form will be displayed on the page; if set to "popup", then the form
-will be hidden, and buttons will be displayed for mailing-list signup and/or contact
-actions, depending on whether the elements `contact_btn_label` and `signup_btn_label` are
-present and populated. The contents of the form will vary depending on which button is
+The `display_mode` element dictates how the form will be rendered. If set to "inline" or\
+omitted, then the form will be displayed on the page; if set to "popup", then the form\
+will be hidden, and buttons will be displayed for mailing-list signup and/or contact\
+actions, depending on whether the elements `contact_btn_label` and `signup_btn_label` are\
+present and populated. The contents of the form will vary depending on which button is\
 clicked; for example, the note field will be suppressed for mailing-list-signup requests.
 
 All fields are easily styled according to their id or class:
 
-                table:               `#captina_mlsf_table`
-                row container:       `.captina_mlsf_th`
-                label fields:        `.captina_mlsf_label`
-                input fields:        `.lz_textbox`
-                textareas:           `.lz_textarea`
-                signup:              `(see below)`
-                spambot:             `(see below)`
+```
+            table:               `#captina_mlsf_table`
+            row container:       `.captina_mlsf_th`
+            label fields:        `.captina_mlsf_label`
+            input fields:        `.lz_textbox`
+            textareas:           `.lz_textarea`
+            signup:              `(see below)`
+            spambot:             `(see below)`
+```
 
-The `success_url` element is optional. If present and populated, the browser will be
+The `success_url` element is optional. If present and populated, the browser will be\
 redirected to that url upon a successful completion of a signup.
 
-The `postal` and `phone` fields are optional; if present, the "`_required`" element
+The `postal` and `phone` fields are optional; if present, the "`_required`" element\
 dictates whether the user can skip them.
 
-The `note` field is also optional; if populated the contents will be stored as a note in
-the person's *CRM* in the database, and included in the notification email (see below).
-Thus, the form serves double-duty as a "join mailing list" function as well as "contact
+The `note` field is also optional; if populated the contents will be stored as a note in\
+the person's *CRM* in the database, and included in the notification email (see below).\
+Thus, the form serves double-duty as a "join mailing list" function as well as "contact\
 us".
 
-The `image_url` parameter is optional. If present, a div will be created (it will be the
-first item in the overall form so that its placement can be readily controlled) with the
-class name `mlsf_image_wrapper`, and the image will be placed inside it. The value of
+The `image_url` parameter is optional. If present, a div will be created (it will be the\
+first item in the overall form so that its placement can be readily controlled) with the\
+class name `mlsf_image_wrapper`, and the image will be placed inside it. The value of\
 `image_url` will be the `src` parameter of the image; `image_title` will be the `title` parameter.
 
-If a `label` element is blank, then no label will be created; if it is not present, then the
+If a `label` element is blank, then no label will be created; if it is not present, then the\
 default label will be used.
 
-If a `placeholder` element is blank, then there will be no placeholder; if it is not
+If a `placeholder` element is blank, then there will be no placeholder; if it is not\
 present, then the default will be used.
 
-If the `submit_label` element is present, the string associated with it will be used for the
+If the `submit_label` element is present, the string associated with it will be used for the\
 action button; the default is "sign up";
 
-If the `signup` element is missing, or checked, then the person will be added to the mailing
+If the `signup` element is missing, or checked, then the person will be added to the mailing\
 list; if it is present and unchecked, the person will not be added.
 
-The optional `contact_optin` element only applies to Contact Us usage. It shows a checkbox
+The optional `contact_optin` element only applies to Contact Us usage. It shows a checkbox\
 that a person submitting a question can use to join/opt-out of the mailing list.
 
-- ☞ We recommend that you include the spambot section; it uses as simple checkbox that has
-been proven effective against most spambots.
+* ☞ We recommend that you include the spambot section; it uses as simple checkbox that has\
+  been proven effective against most spambots.
 
 ## Pop-up
 
@@ -156,21 +158,21 @@ The pop-up will have the following layout:
 </div>
 ```
 
-All of these elements come pre-styled; you can add CSS to match your site's design. Final
-styling is governed by the Site-wide plugin stylesheet found under
+All of these elements come pre-styled; you can add CSS to match your site's design. Final\
+styling is governed by the Site-wide plugin stylesheet found under\
 Administration->Stylesheets for Plugins.
 
 ## Confirmation
 
-If a submission is successful, an email will be sent to the person submitting the request.
+If a submission is successful, an email will be sent to the person submitting the request.\
 That email will use parameters and elements specified on the Administration page.
 
-The templates are found in Email Templates for Mailing list signup, and the subject line
+The templates are found in Email Templates for Mailing list signup, and the subject line\
 found under Email Addressing.
 
 The "from" address will be the Email Marketing from name/address (Email Addressing).
 
-If the BCC flag for list-welcomes is set (Email Management), the welcome email will be
+If the BCC flag for list-welcomes is set (Email Management), the welcome email will be\
 BCC'd to the BCC address for customer emails (Email Addressing).
 
 Copyright Captina LLC                                                                           Support: (707) 324-3123
