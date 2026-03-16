@@ -28,3 +28,4 @@
 - get-loyalties-members-memberid-rewards
 - get-loyalties-campaignid-reward-assignments-assignmentid-reward
 - get-loyalties-campaignid-reward-assignments
+- get-loyalties-campaignid-rewards
