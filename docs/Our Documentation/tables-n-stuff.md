@@ -10,13 +10,62 @@ metadata:
 next:
   description: ''
 ---
-| Item 1                                                          | Item 2 | Item 3 |
-| :-------------------------------------------------------------- | :----- | :----- |
-| <ul>   <li>Cheese</li>   <li>Beans</li>   <li>Lettuce</li> <ul> |        |        |
-|                                                                 |        |        |
+<Table align={["left","left","left"]}>
+  <thead>
+    <tr>
+      <th style={{ textAlign: "left" }}>
+        Item 1
+      </th>
 
-[block:html]
-{
-  "html": "<style>\nli {\n  margin: 10px 0;\n}\n</style>"
+      <th style={{ textAlign: "left" }}>
+        Item 2
+      </th>
+
+      <th style={{ textAlign: "left" }}>
+        Item 3
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td style={{ textAlign: "left" }}>
+        <ul>   
+          <li>Cheese</li>   
+          <li>Beans</li>   
+          <li>Lettuce</li> 
+        </ul>
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+
+      </td>
+    </tr>
+
+    <tr>
+      <td style={{ textAlign: "left" }}>
+
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+
+      </td>
+    </tr>
+  </tbody>
+</Table>
+
+<HTMLBlock>{`
+<style>
+li {
+  margin: 10px 0;
 }
-[/block]
+</style>
+`}</HTMLBlock>
