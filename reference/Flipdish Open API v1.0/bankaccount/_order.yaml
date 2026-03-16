@@ -5,3 +5,4 @@
 - deletebankaccount
 - getfielddefinitions
 - getcountrieswithfielddefinitions
+- updatebankaccountstate
