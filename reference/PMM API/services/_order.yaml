@@ -4,3 +4,4 @@
 - addmysqlservice
 - addpostgresqlservice
 - addproxysqlservice
+- getservice
