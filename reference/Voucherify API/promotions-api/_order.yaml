@@ -4,3 +4,4 @@
 - post-promotions-campaign_id-tiers
 - get-promotions-tiers-promotiontierid
 - put-promotions-tiers-promotiontierid
+- delete-promotions-tiers-promotiontierid
