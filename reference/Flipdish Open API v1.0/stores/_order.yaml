@@ -10,3 +10,4 @@
 - getprocessingfeeconfigsbystoreid
 - getstoresbyappid
 - getstorenetsales
+- getbusinesshoursoverridebystoreid
