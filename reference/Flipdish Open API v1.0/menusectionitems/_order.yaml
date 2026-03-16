@@ -3,3 +3,4 @@
 - getmenuitembyid
 - updatemenusectionitem
 - deletemenusectionitem
+- clonemenusectionitem
