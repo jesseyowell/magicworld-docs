@@ -1,3 +1,4 @@
 - getstorebyid
 - updatestore
 - getbankaccountforstore
+- getendofdayreport
