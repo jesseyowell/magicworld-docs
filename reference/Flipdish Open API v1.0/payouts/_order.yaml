@@ -3,3 +3,4 @@
 - getpayoutrefunds
 - getpayoutchargebacks
 - getpayoutothercharges
+- getpayoutsummaries
