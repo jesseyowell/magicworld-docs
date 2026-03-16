@@ -11,3 +11,4 @@
 - getstoresbyappid
 - getstorenetsales
 - getbusinesshoursoverridebystoreid
+- createbusinesshoursoverridebystoreid
