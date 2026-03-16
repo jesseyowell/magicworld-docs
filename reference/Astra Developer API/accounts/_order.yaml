@@ -3,3 +3,4 @@
 - get_v1-accounts-id
 - delete_v1-accounts-id
 - post_v1-accounts-create
+- post_v1-accounts-processor-token
