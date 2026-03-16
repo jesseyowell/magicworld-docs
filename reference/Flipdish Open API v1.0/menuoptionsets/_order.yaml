@@ -2,3 +2,4 @@
 - createmenuitemoptionset
 - getmenuitemoptionsetbyid
 - updatemenuitemoptionset
+- deletemenuitemoptionset
