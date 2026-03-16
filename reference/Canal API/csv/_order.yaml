@@ -3,3 +3,4 @@
 - csv_fulfillment_create_create
 - csv_product_export_retrieve
 - csv_product_import_create
+- csv_product_template_retrieve
