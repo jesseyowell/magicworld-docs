@@ -13,3 +13,4 @@
 - post-loyalties-members-memberid-balance
 - post-loyalties-campaignid-members-memberid-transfers
 - get-loyalties-campaignid-members-memberid-transactions
+- get-loyalties-members-memberid-transactions
