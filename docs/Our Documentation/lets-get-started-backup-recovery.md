@@ -21,24 +21,7 @@ This is a beans
 
 NEW UPDATE!
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/f295370-ughh.jpg",
-        "ughh.jpg",
-        500
-      ],
-      "align": "center",
-      "sizing": "80",
-      "border": true
-    }
-  ]
-}
-[/block]
-
-
+<Image title="ughh.jpg" alt={500} align="center" className="border" width="80%" border={true} src="https://files.readme.io/f295370-ughh.jpg" />
 
 ## ❤️ We love developers
 
@@ -54,20 +37,6 @@ I like growing beans and beansprouts
 
 Delicious foods for all!
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/af54480-Screen_Shot_2022-10-28_at_3.14.24_PM.png",
-        null,
-        ""
-      ],
-      "align": "center",
-      "sizing": "300px"
-    }
-  ]
-}
-[/block]
+<Image align="center" width="300px" src="https://files.readme.io/af54480-Screen_Shot_2022-10-28_at_3.14.24_PM.png" />
 
 ![](https://files.readme.io/de00508-small-exif-data.jpg)
