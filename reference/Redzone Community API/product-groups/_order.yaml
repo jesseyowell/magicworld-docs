@@ -1,3 +1,4 @@
 - get-productgroups
 - post-productgroups
 - get-productgroups-productgroupuuid
+- put-productgroups-productgroupuuid
