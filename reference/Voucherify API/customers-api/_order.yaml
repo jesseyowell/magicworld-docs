@@ -9,3 +9,4 @@
 - post-customers-metadata-async
 - put-customers-customerid-consents
 - put-customers-customerid-consents-client_side
+- get-customers-customerid-activities
