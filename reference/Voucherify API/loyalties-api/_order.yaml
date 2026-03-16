@@ -24,3 +24,4 @@
 - put-loyalties-campaignid-earning-rules-earningruleid
 - delete-loyalties-campaignid-earning-rules-earningruleid
 - post-loyalties-campaignid-earning-rules-earningruleid-enable
+- post-loyalties-campaignid-earning-rules-earningruleid-disable
