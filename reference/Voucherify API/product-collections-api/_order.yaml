@@ -1,3 +1,4 @@
 - get-product-collections
 - get-product-collections-productcollectionid
 - delete-product-collections-productcollectionid
+- get-product-collections-productcollection_id-products
