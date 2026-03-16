@@ -12,9 +12,9 @@ next:
 ---
 Pants integrates with these tools to empower you to follow best practices with your Shell scripts:
 
-- [Shellcheck](https://www.shellcheck.net): lint for common Shell mistakes. 
-- [shfmt](https://github.com/mvdan/sh): autoformat Shell code so that you can instead focus on the logic.
-- [shUnit2](https://github.com/kward/shunit2/): write light-weight unit tests for your Shell code.
+* [Shellcheck](https://www.shellcheck.net): lint for common Shell mistakes. 
+* [shfmt](https://github.com/mvdan/sh): autoformat Shell code so that you can instead focus on the logic.
+* [shUnit2](https://github.com/kward/shunit2/): write light-weight unit tests for your Shell code.
 
 Pants installs these tools deterministically and integrates them into the workflows you already use: `pants fmt`, `pants lint`, and `pants test`.
 
@@ -64,21 +64,21 @@ shell_source(name="script_without_a_extension", source="script_without_an_extens
 ```
 
 > 📘 Shell dependency inference
-> 
+>
 > Pants will infer dependencies by looking for imports like `source script.sh` and `. script.sh`. You can check that the correct dependencies are inferred by running `pants dependencies path/to/script.sh` and `pants dependencies --transitive path/to/script.sh`.
-> 
+>
 > Normally, Pants will not understand dynamic sources, e.g. using variable expansion. However, Pants uses Shellcheck for parsing, so you can use Shellcheck's syntax to give a hint to Pants:
-> 
+>
 > ```shell
 > another_script="dir/some_script.sh"
-> 
+>
 > # Normally Pants couldn't infer this, but we can give a hint like this:
 > # shellcheck source=dir/some_script.sh
 > source "${another_script}"
 > ```
-> 
+>
 > Alternatively, you can explicitly add `dependencies` in the relevant BUILD file.
-> 
+>
 > ```python
 > shell_sources(dependencies=["path/to:shell_source_tgt"])
 > ```
@@ -137,12 +137,12 @@ pants fmt --only=shfmt ::
 ```
 
 > 👍 Benefit of Pants: shfmt runs in parallel with Python, Java, Scala, and Go formatters
-> 
+>
 > Normally, Pants runs formatters sequentially so that it can pipe the results of one formatter into the next. However, Pants will run shfmt in parallel to formatters for other languages, [like Python](doc:python-linters-and-formatters), because shfmt does not operate on those languages.
-> 
+>
 > You can see this concurrency through Pants's dynamic UI.
-> 
-> [block:image]{"images":[{"image":["https://files.readme.io/19619b8-1uqxmh.gif","",""],"align":"center"}]}[/block]
+>
+> <Image align="center" src="https://files.readme.io/19619b8-1uqxmh.gif" />
 
 ## Shellcheck linter
 
@@ -197,7 +197,7 @@ pants lint --only=shellcheck ::
 ```
 
 > 👍 Benefit of Pants: Shellcheck runs in parallel with other linters
-> 
+>
 > Pants will attempt to run all activated linters and formatters at the same time for improved performance, including [Python](doc:python-linters-and-formatters), Go, Java, and Scala linters. You can see this through Pants's dynamic UI.
 
 ## shUnit2 test runner
@@ -207,11 +207,11 @@ pants lint --only=shellcheck ::
 To use shunit2 with Pants:
 
 1. Create a test file like `tests.sh`, `test_foo.sh`, or `foo_test.sh`.
-   - Refer to <https://github.com/kward/shunit2/> for how to write shUnit2 tests.
+   * Refer to [https://github.com/kward/shunit2/](https://github.com/kward/shunit2/) for how to write shUnit2 tests.
 2. Create a `shunit2_test` or `shunit2_tests` target in the directory's BUILD file.
-   - You can run [`pants tailor`](doc:initial-configuration#5-generate-build-files) to automate this step.
+   * You can run [`pants tailor`](doc:initial-configuration#5-generate-build-files) to automate this step.
 3. Specify which shell to run your tests with, either by setting a shebang directly in the test file or by setting the field `shell` on the `shunit2_test` / `shunit2_tests` target.
-   - See [here](doc:reference-shunit2_tests#codeshellcode) for all supported shells.
+   * See [here](doc:reference-shunit2_tests#codeshellcode) for all supported shells.
 
 ```shell scripts/tests.sh
 #!/usr/bin/env bash
@@ -261,24 +261,24 @@ shell_tests(name="tests")
 ```
 
 > 👍 Running your tests with multiple shells
-> 
+>
 > Pants allows you to run the same tests against multiple shells, e.g. Bash and Zsh, to ensure your code works with each shell. 
-> 
+>
 > To test multiple shells, use the `parametrize` mechanism, like this:
-> 
+>
 > ```python
 > shunit2_tests(
 >     name="tests",
 >     shell=parametrize("bash", "zsh"),
 > )
 > ```
-> 
+>
 > Then, use `pants test`:
-> 
+>
 > ```bash
 > # Run tests with both shells.
 > pants test scripts/tests.sh
-> 
+>
 > # Run tests with only Zsh.
 > pants test scripts/tests.sh:tests@shell=zsh
 > ```
@@ -300,7 +300,7 @@ To force your tests to run again, rather than reading from the cache, run `pants
 
 ### Setting environment variables
 
-Test runs are _hermetic_, meaning that they are stripped of the parent `pants` process's environment variables. This is important for reproducibility, and it also increases cache hits.
+Test runs are *hermetic*, meaning that they are stripped of the parent `pants` process's environment variables. This is important for reproducibility, and it also increases cache hits.
 
 To add any arbitrary environment variable back to the process, use the option `extra_env_vars` in the `[test]` options scope. You can hardcode a value for the option, or leave off a value to "allowlist" it and read from the parent `pants` process's environment.
 
