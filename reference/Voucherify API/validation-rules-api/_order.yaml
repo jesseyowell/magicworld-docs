@@ -5,3 +5,4 @@
 - delete-validation-rules-validationruleid
 - get-validation-rules-assignments
 - get-validation-rules-validationruleid-assignments
+- post-validation-rules-validationruleid-assignments
