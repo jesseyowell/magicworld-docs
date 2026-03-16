@@ -1,3 +1,4 @@
 - addcontainernode
 - addgenericnode
 - addremotenode
+- addremoteazuredatabasenode
