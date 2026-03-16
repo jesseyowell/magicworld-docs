@@ -6,3 +6,4 @@
 - postrecipient
 - postrecipientrecipientidpaymentaddress
 - getpaymentaddresspaymentaddressid
+- getrecipientrecipientid
