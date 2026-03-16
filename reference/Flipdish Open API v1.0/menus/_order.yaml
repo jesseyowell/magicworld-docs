@@ -9,3 +9,4 @@
 - getmenustorenames
 - getmenuscheckpoints
 - getallmenumetadatabymenuidandstoreid
+- menus_getmenubulkshowhide
