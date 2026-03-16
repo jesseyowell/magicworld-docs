@@ -5,3 +5,4 @@
 - get-promotions-tiers-promotiontierid
 - put-promotions-tiers-promotiontierid
 - delete-promotions-tiers-promotiontierid
+- post-promotions-tiers-promotiontierid-enable
