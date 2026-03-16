@@ -3,3 +3,4 @@
 - update-template
 - delete-template
 - clone-template
+- render-template
