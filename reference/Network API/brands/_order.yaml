@@ -1,3 +1,4 @@
 - list-brands
 - create-brand
 - upsert-brand
+- retrieve-brand
