@@ -4,3 +4,4 @@
 - put-campaigns-campaignid
 - delete-campaigns-campaignid
 - post-campaigns-campaignid-vouchers
+- post-campaigns-campaignid-vouchers-code
