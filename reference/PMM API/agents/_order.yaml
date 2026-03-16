@@ -1,3 +1,4 @@
 - addazuredatabaseexporter
 - addexternalexporter
 - addmongodbexporter
+- addmysqldexporter
