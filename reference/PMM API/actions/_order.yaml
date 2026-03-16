@@ -6,3 +6,4 @@
 - startmysqlexplaintraditionaljsonaction
 - startmysqlshowcreatetableaction
 - startmysqlshowindexaction
+- startmysqlshowtablestatusaction
