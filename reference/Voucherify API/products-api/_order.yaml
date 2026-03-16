@@ -3,3 +3,4 @@
 - get-products-productid
 - put-products-productid
 - delete-products-productid
+- post-products-bulk-async
