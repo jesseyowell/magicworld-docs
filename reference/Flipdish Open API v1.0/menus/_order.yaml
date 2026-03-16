@@ -8,3 +8,4 @@
 - setmenuname
 - getmenustorenames
 - getmenuscheckpoints
+- getallmenumetadatabymenuidandstoreid
