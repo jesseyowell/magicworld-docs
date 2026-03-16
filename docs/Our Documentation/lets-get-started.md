@@ -14,20 +14,6 @@ This is a new page about how things should work! Stay tuned for more information
 
 Hello This is Getting Started.
 
+![500](https://files.readme.io/f295370-ughh.jpg "ughh.jpg")
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/f295370-ughh.jpg",
-        "ughh.jpg",
-        500,
-        739,
-        "#737895"
-      ]
-    }
-  ]
-}
-[/block]
 hello hello hello
