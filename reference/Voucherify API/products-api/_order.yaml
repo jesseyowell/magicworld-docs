@@ -5,3 +5,4 @@
 - delete-products-productid
 - post-products-bulk-async
 - post-products-metadata-async
+- get-skus-sku_id
