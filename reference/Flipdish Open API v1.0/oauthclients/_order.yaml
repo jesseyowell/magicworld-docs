@@ -6,3 +6,4 @@
 - getoauthaccesstoken
 - getredirecturis
 - addredirecturi
+- getoauthapps
