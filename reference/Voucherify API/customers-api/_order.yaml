@@ -8,3 +8,4 @@
 - post-customers-bulk-async
 - post-customers-metadata-async
 - put-customers-customerid-consents
+- put-customers-customerid-consents-client_side
