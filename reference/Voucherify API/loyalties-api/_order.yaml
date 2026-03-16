@@ -19,3 +19,4 @@
 - get-loyalties-campaignid-members-memberid-points-expiration
 - post-loyalties-campaignid-points-expiration-export
 - get-loyalties-campaignid-earning-rules
+- post-loyalties-campaignid-earning-rules
