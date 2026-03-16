@@ -11,3 +11,4 @@
 - addqanmysqlslowlogagent
 - addqanpostgresqlpgstatmonitoragent
 - addqanpostgresqlpgstatementsagent
+- addrdsexporter
