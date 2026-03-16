@@ -5,3 +5,4 @@
 - getoauthclientsecret
 - getoauthaccesstoken
 - getredirecturis
+- addredirecturi
