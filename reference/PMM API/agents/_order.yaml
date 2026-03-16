@@ -21,3 +21,4 @@
 - changeproxysqlexporter
 - changeqanmongodbprofileragent
 - changeqanmysqlperfschemaagent
+- changeqanmysqlslowlogagent
