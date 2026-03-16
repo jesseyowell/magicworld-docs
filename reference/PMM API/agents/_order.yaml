@@ -7,3 +7,4 @@
 - addpostgresexporter
 - addproxysqlexporter
 - addqanmongodbprofileragent
+- addqanmysqlperfschemaagent
