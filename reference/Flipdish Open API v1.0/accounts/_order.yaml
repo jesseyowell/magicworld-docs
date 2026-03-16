@@ -3,3 +3,4 @@
 - createaccount
 - getlocalisedtimezones
 - changepassword
+- passwordresetwithtoken
