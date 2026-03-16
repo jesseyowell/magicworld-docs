@@ -1,3 +1,4 @@
 - getbankaccounts
 - createbankaccount
 - getbankaccountbyid
+- updatebankaccount
