@@ -10,3 +10,4 @@
 - get-promotions-stacks
 - get-promotions-campaignid-stacks
 - post-promotions-campaignid-stacks
+- get-promotions-campaignid-stacks-stackid
