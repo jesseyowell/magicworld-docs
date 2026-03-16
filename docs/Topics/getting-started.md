@@ -13,11 +13,13 @@ next:
 Whenever you query an endpoint that returns a list of objects, regardless of the number of objects returned, you will receive a response that includes pagination metadata. Additionally, all paginated endpoints *optionally* accept a single page number in the request query parameters.
 
 **Request**
+
 ```
 GET https://api.finexio.com/v1/invoices/?page=4
 ```
 
 **Response**
+
 ```
 HTTP 200 OK
 {
@@ -30,10 +32,6 @@ HTTP 200 OK
 }
 ```
 
-[block:callout]
-{
-  "type": "warning",
-  "title": "Default Page Size",
-  "body": "Maximum page size is 100. If you would like to have control over the page size for your requests, please let us know."
-}
-[/block]
+> 🚧 Default Page Size
+>
+> Maximum page size is 100. If you would like to have control over the page size for your requests, please let us know.
