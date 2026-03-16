@@ -8,3 +8,4 @@
 - get-skus-sku_id
 - get-products-productid-skus
 - post-products-productid-skus
+- put-products-productid-skus-skuid
