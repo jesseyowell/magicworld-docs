@@ -4,3 +4,4 @@
 - getpaymentpaymenttransactionid
 - getaccounttradingaccountidpayments
 - postrecipient
+- postrecipientrecipientidpaymentaddress
