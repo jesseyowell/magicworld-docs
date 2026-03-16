@@ -14,3 +14,4 @@
 - get-products-productuuid-locationconfigs
 - post-products-productuuid-locationconfigs
 - put-products-productuuid-locationconfigs
+- delete-products-productuuid-locationconfigs
