@@ -4,3 +4,4 @@
 - put-rewards-rewardid
 - delete-rewards-rewardid
 - get-rewards-rewardid-assignments
+- post-rewards-rewardid-assignments
