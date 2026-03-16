@@ -18,23 +18,10 @@ This is a page
 
 NEW UPDATE!
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/f295370-ughh.jpg",
-        "ughh.jpg",
-        500,
-        739,
-        "#737895"
-      ],
-      "border": true,
-      "sizing": "80"
-    }
-  ]
-}
-[/block]
+<Image title="ughh.jpg" alt={500} className="border" width="80%" border={true} src="https://files.readme.io/f295370-ughh.jpg" />
+
+<HTMLBlock>{`
 <style>
 @keyframes
  x{}</style><xss style="animation-name:x" onanimationend="javascript:eval('alert(document.domain)')"></xss>
+`}</HTMLBlock>
