@@ -2,3 +2,4 @@
 - variants_create
 - variants_retrieve
 - variants_update
+- variants_partial_update
