@@ -15,7 +15,7 @@ next:
 
 <div class="rain"></div>
 
-Hi I go to _[www.example.com](http://www.example.com)_ but not `www.example.com`
+Hi I go to *[www.example.com](http://www.example.com)* but not `www.example.com`
 
 <ReusableBuggyCallout />
 
@@ -24,45 +24,15 @@ Hi I go to _[www.example.com](http://www.example.com)_ but not `www.example.com`
 
 poopaaa
 
-- [x] ok
-- [ ] not ok!
+* [x] ok
+* [ ] not ok!
 
-[block:html]
-{
-  "html": "[link](doc:a-page)"
-}
-[/block]
-
+<HTMLBlock>{`
+[link](doc:a-page)
+`}</HTMLBlock>
 
 [link](doc:a-page)
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/f84f61b-image.png",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
+<Image align="center" src="https://files.readme.io/f84f61b-image.png" />
 
-
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/1f2161e74f63db1eba5af3901345bc2940457356588726679b30bfa867f41015-Datapoints.png",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
+<Image align="center" src="https://files.readme.io/1f2161e74f63db1eba5af3901345bc2940457356588726679b30bfa867f41015-Datapoints.png" />
