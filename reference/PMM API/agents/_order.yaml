@@ -5,3 +5,4 @@
 - addnodeexporter
 - addpmmagent
 - addpostgresexporter
+- addproxysqlexporter
