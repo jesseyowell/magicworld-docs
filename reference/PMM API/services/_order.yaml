@@ -3,3 +3,4 @@
 - addmongodbservice
 - addmysqlservice
 - addpostgresqlservice
+- addproxysqlservice
