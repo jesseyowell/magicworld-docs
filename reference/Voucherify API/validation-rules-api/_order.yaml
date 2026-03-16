@@ -2,3 +2,4 @@
 - post-validation-rules
 - get-validation-rules-validationruleid
 - put-validation-rules-validationruleid
+- delete-validation-rules-validationruleid
