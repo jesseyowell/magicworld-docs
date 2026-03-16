@@ -12,18 +12,38 @@ next:
 ---
 Mostly blank for test purposes
 
-Hi <br><br> ok!
-[block:parameters]
-{
-  "data": {
-    "h-0": "Fun",
-    "h-1": "or",
-    "h-2": "Not fun",
-    "0-0": "Hi",
-    "0-1": "<<glossary:parliament>>",
-    "0-2": "<<glossary:cheeseType>>"
-  },
-  "cols": 3,
-  "rows": 1
-}
-[/block]
+Hi <br /><br /> ok!
+
+<Table align={["left","left","left"]}>
+  <thead>
+    <tr>
+      <th style={{ textAlign: "left" }}>
+        Fun
+      </th>
+
+      <th style={{ textAlign: "left" }}>
+        or
+      </th>
+
+      <th style={{ textAlign: "left" }}>
+        Not fun
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td style={{ textAlign: "left" }}>
+        Hi
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        <Glossary>parliament</Glossary>
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        <Glossary>cheeseType</Glossary>
+      </td>
+    </tr>
+  </tbody>
+</Table>
