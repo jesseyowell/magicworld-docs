@@ -12,3 +12,4 @@
 - post-promotions-campaignid-stacks
 - get-promotions-campaignid-stacks-stackid
 - put-promotions-campaignid-stacks-stackid
+- delete-promotions-campaignid-stacks-stackid
