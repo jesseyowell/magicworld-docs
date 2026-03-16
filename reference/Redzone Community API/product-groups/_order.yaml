@@ -2,3 +2,4 @@
 - post-productgroups
 - get-productgroups-productgroupuuid
 - put-productgroups-productgroupuuid
+- delete-productgroups-productgroupuuid
