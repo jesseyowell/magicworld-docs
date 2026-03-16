@@ -2,3 +2,4 @@
 - create-merchant
 - upsert-merchant
 - retrieve-merchant
+- update-merchant
