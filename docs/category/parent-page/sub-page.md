@@ -1,0 +1,13 @@
+---
+title: sub page
+excerpt: ''
+deprecated: false
+hidden: true
+metadata:
+  title: ''
+  description: ''
+  robots: noindex
+next:
+  description: ''
+---
+this is the child page
