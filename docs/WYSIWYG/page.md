@@ -40,12 +40,8 @@ metadata:
 </Accordion>
 
 <Cards>
-  <Card title="Card One" icon="fa-rocket">
+  <Card title="CARD CARD" icon="fa-rocket">
     ASF
-  </Card>
-
-  <Card title="Card Two" icon="fa-code">
-    SAFASF
   </Card>
 
   <Card title="Card Three" href="https://google.com" icon="fa-comments" target="_blank">
