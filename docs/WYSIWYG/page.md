@@ -35,4 +35,20 @@ metadata:
   </Tab>
 </Tabs>
 
+<Columns layout="fixed">
+  <Column>
+    <HTMLBlock>{`
+    <center>CENTER ME</center>
+
+    <table>
+      <tr><td>ooof</td></tr>
+    </table>
+    `}</HTMLBlock>
+  </Column>
+
+  <Column>
+
+  </Column>
+</Columns>
+
 <br />
