@@ -39,14 +39,14 @@ metadata:
   A
 </Accordion>
 
-<Cards>
-  <Card title="CARD CARD" icon="fa-rocket">
-    ASF
-  </Card>
-
-  <Card title="Card Three" href="https://google.com" icon="fa-comments" target="_blank">
-    ASFSAFASF
-  </Card>
-</Cards>
+> <Cards cardWidth="20px">
+>   <Card title="CARD CARD" icon="fa-rocket" kind="tile">
+>     ASF
+>   </Card>
+>
+>   <Card title="Card Three" href="https://google.com" icon="fa-comments" target="_blank" kind="tile">
+>     ASFSAFASF
+>   </Card>
+> </Cards>
 
 <br />
