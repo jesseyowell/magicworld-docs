@@ -17,4 +17,22 @@ metadata:
   </Accordion>
 </Accordion>
 
+<Tabs>
+  <Tab title="This is tab 1">
+    WORKING AS INTENDED!
+  </Tab>
+
+  <Tab title="This is tab 2">
+
+  </Tab>
+
+  <Tab title="Also tab 3">
+    AYW<br /><br />
+
+    <Accordion title="" icon="fa-info-circle">
+      OK
+    </Accordion>
+  </Tab>
+</Tabs>
+
 <br />
