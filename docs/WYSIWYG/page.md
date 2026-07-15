@@ -29,26 +29,22 @@ metadata:
   <Tab title="Also tab 3">
     AYW<br /><br />
 
-    <Accordion title="" icon="fa-info-circle">
-      OK
+    <Accordion title="">
+
     </Accordion>
+
+    <Columns layout="fixed">
+      <Column>
+
+
+
+      </Column>
+
+      <Column>
+
+      </Column>
+    </Columns>
   </Tab>
 </Tabs>
-
-<Columns layout="fixed">
-  <Column>
-    <HTMLBlock>{`
-    <center>CENTER ME</center>
-
-    <table>
-      <tr><td>ooof</td></tr>
-    </table>
-    `}</HTMLBlock>
-  </Column>
-
-  <Column>
-
-  </Column>
-</Columns>
 
 <br />
