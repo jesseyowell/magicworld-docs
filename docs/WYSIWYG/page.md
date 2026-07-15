@@ -13,6 +13,10 @@ metadata:
 
     <Accordion title="OH NO" icon="fa-info-circle">
       RECUSION<br />
+
+      <Accordion title="" icon="fa-info-circle">
+
+      </Accordion>
     </Accordion>
   </Accordion>
 </Accordion>
@@ -26,25 +30,27 @@ metadata:
 
   </Tab>
 
-  <Tab title="Also tab 3">
-    AYW<br /><br />
+  <Tab title="Tab 3">
 
-    <Accordion title="">
-
-    </Accordion>
-
-    <Columns layout="fixed">
-      <Column>
-
-
-
-      </Column>
-
-      <Column>
-
-      </Column>
-    </Columns>
   </Tab>
 </Tabs>
+
+<Accordion title="" icon="fa-info-circle">
+  A
+</Accordion>
+
+<Cards>
+  <Card title="Card One" icon="fa-rocket">
+    ASF
+  </Card>
+
+  <Card title="Card Two" icon="fa-code">
+    SAFASF
+  </Card>
+
+  <Card title="Card Three" href="https://google.com" icon="fa-comments" target="_blank">
+    ASFSAFASF
+  </Card>
+</Cards>
 
 <br />
